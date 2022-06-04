@@ -1,2 +1,2 @@
 # Proyectos
-En este repositorio estare almacenando todos los proyectos que cree durante mi aprendizaje.
+En este repositorio estare almacenando todos los proyectos que creare durante mi aprendizaje.
