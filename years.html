@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida animal</title>
+    <link rel="stylesheet" href="css/years.css">
+</head>
+<body>
+    <h1>!Vida animal¡</h1>
+    <p>¿Cuantos años tendrias si fueras un perro o un gato?</p>
+
+    <div class="contenedor-padre">
+
+        <div class="contenedor" style="--i:url(../img/cat2.jpg)">
+            <p>Años Gato</p>
+            <form action="">
+                <label>Ingrese su edad con dos años menos</label>
+                <input type="text" id="edadHumana">
+                <input type="button" onclick="edadGato()" class="btn" value="Enviar">
+                <h2>Tendrias: <span id="T-gato"></span> </h2>
+            </form>
+        </div>
+
+        <div class="contenedor" style="--i:url(../img/dog2.jpg)">
+            <p>Años Perro</p>
+            <form action="">
+                <label>Ingrese su edad con dos años menos</label>
+                <input type="text" id="Edadhumana">
+                <input type="button" onclick="edadPerro()" class="btn" value="Enviar">
+                <h2>Tendrias: <span id="T-perro"></span></h2>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/years.js"></script>
+</body>
+</html>

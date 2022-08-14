@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', 'Montserrat',sans-serif;
+}
+body{
+    background-image: url("/img/7.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 3rem;
+    padding-top: 40px;
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:40px;
+    font-weight: 600;
+
+}
+.contenedor-padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor{
+    width: 100%;
+    height: 50vh;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(232, 238, 248);
+    box-shadow: -5px 5px 1px  rgba(164, 190, 238, 0.801);
+    /* background-image: var(--i);
+    background-repeat: no-repeat; */
+    border-radius: 10px;
+}
+label{
+    font-size: 1.2rem;
+    font-weight:100;
+    text-align: center;
+    padding-right: 10px;
+}
+h2{
+    padding:50px 0;
+}
+input{
+    border-radius: 8px;
+    padding: 0 15px;
+    width: 100px;
+    height: 25px;
+    border: 1px solid ;
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    margin:10px;
+    cursor: pointer;
+    background-color: rgb(172, 203, 250);
+
+}
+span{
+    font-weight: 100;
+
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor-padre{
+        flex-wrap: wrap;
+    }
+    body{
+        background-image: url("/img/8.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+}
