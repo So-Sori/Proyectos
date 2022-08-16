@@ -206,11 +206,12 @@ section{
     float: 50%;
     background-image: url("../img/nubes.png");
 }
-/* .imagen-right img{
+.imagen-right img{
     width: 100%;
     height:100%;
     float: right;
-} */
+    margin: 10px 0;
+}
 @media screen and (max-width:900px){
     .banner h1{
         font-size:3.5em;
