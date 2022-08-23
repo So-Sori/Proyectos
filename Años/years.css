@@ -24,6 +24,14 @@ p{
     font-weight: 600;
 
 }
+.bx {
+    width: 20px;
+    font-size: 3.2em;
+    
+    position: relative;
+    left: 200px;
+    top: -36px;
+}
 .contenedor-padre{
     display: flex;
     justify-content: center;
@@ -64,19 +72,29 @@ input{
     margin:10px;
     cursor: pointer;
     background-color: rgb(172, 203, 250);
+    transition: 0.5s;
 
 }
+
+.btn:hover{
+    transform: scale(1.08,1.08);
+    transition: 4.s;
+    box-shadow: -5px 5px 1px  rgba(164, 190, 238, 0.801);
+    
+}
+
+
 span{
     font-weight: 100;
 
 }
 footer{
+    position: absolute;
+    bottom:0;
     width: 100%;
     height: auto;
 }
 .barra-blanca{
-    position: relative;
-    top:40px;
     width: 100%;
     height:5%;
     background-color:white;
@@ -94,5 +112,8 @@ footer{
         background-size:cover;
         background-repeat: no-repeat;
         position:static;
+    }
+    footer{
+        position: relative;
     }
 }

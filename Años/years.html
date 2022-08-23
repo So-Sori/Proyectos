@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vida animal</title>
     <link rel="stylesheet" href="years.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <h1>!Vida animal¡</h1>
@@ -13,7 +15,7 @@
 
     <div class="contenedor-padre">
 
-        <div class="contenedor">
+        <div class="contenedor" data-aos="zoom-out-right" data-aos-duration="2000">
             <p>Años Gato</p>
             <form action="">
                 <label>Ingrese su edad con dos años menos</label>
@@ -23,7 +25,7 @@
             </form>
         </div>
 
-        <div class="contenedor">
+        <div class="contenedor" data-aos="zoom-out-left" data-aos-duration="2000">
             <p>Años Perro</p>
             <form action="">
                 <label>Ingrese su edad con dos años menos</label>
@@ -35,10 +37,17 @@
     </div>
     
     <footer>
+        
         <div class="barra-blanca"><h2>©Copyright Soribel S.B</h2></div>
+        <!-- <i class="bx bxl-instagram"></i> ICON -->
+        
     </footer>
    
 
     <script src="years.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <!-- script de la animacion -->
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
