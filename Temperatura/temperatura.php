@@ -24,7 +24,7 @@
                 
                 <input type="text" id="btn" class="btn">
             </div>
-            <img src="flecha-correcta.png" alt="">
+            <img src="flecha-correcta.png" alt="flecha-negra" class="flecha">
 
             <div class="lado">
                 <select id="opciones2">
@@ -43,22 +43,18 @@
     </div>
 
     <script src="temperatura.js"></script>
-
-    <!-- Notas -->
-    <!-- 
-Escala Fahrenheit
-La escala Fahrenheit fue establecida por el físico holandés-alemán Gabriel Daniel Fahrenheit, en 1724. 
-
-Escala de Kelvin
-La escala de Kelvin lleva el nombre de William Thompson Kelvin, un físico británico que la diseñó en 1848. Prolonga la escala Celsius hasta el cero absoluto, una temperatura hipotética caracterizada por una ausencia completa de energía calórica. Las temperaturas en esta escala son llamadas Kelvins (K).
-
-Escala Celsius
-La escala Celsius fue inventada en 1742 por el astrónomo sueco Andrés Celsius. Esta escala divide el rango entre las temperaturas de congelación y de ebullición del agua en 100 partes iguales-->
+<!-- 
     <footer>
         <div class="copy">
             <h2>©Copyright Soribel S.B</h2></div>
-    </footer>
-    <div id="Contenedor_Carga">
+        <div class="redes">
+            <a href="https://www.instagram.com/soribel_s.brito/" target="_blank"><img src="/img/black-insta.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/soribel-santos-brito-7b30a6213/" target="_blank"><img src="/img/black-link.png" alt=""></a>
+            <a href="https://github.com/So-Sori" target="_blank"><img src="/img/black-github.png" alt=""></a>
+        </div>
+    </footer> -->
+
+    <!-- <div id="Contenedor_Carga">
         <div id="carga"  ></div>
         <video src="giftauto.gif" class="Contenedor_Carga"></video>
     </div>
@@ -78,6 +74,9 @@ La escala Celsius fue inventada en 1742 por el astrónomo sueco Andrés Celsius.
         }
 
         
-    </script>
+    </script> -->
+
+
+<?php include '../PHP/footer.php' ?>
 </body>
 </html>

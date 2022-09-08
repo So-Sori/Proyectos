@@ -55,7 +55,7 @@ function operacion(){
         span.textContent = result;
      }
     else{
-       span.textContent = "Lo mismo " + btn;
+       span.textContent = `Lo mismo ${btn}`;
     }
 }
 /*
