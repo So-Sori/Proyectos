@@ -1,0 +1,9 @@
+.estilizala img{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+img:hover{
+    filter:drop-shadow(50px 50px black)
+}
