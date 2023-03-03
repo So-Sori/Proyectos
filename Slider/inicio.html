@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Practica</title>
+    <link rel="stylesheet" href="css/stilos.css">
+</head>
+<body>
+    <main>
+        <div class="icon-menu" id="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+        </div>
+        <nav>
+            <div class="logo"><img src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/2660/posts/32707/image/startup-logo-creator-with-an-abstract-icon-1140h-2368.jpg" alt=""></div>
+            <div class="menu">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                    <li>Sobre Nosotros</li>
+                </ul>
+            </div>
+            <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="48" viewBox="0 0 24 24" style="fill: #eac4d5ff;"><path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="48" viewBox="0 0 24 24" style="fill: #eac4d5ff;"><path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></svg>
+            </div>
+        </nav>
+
+        <div class="slider" >
+            <ul id="slider">
+                <li class="item">
+                    <img src="https://www.printstop.co.in/images/products_gallery_images/mousepad_slider.jpg" alt="">
+                    <div class="btn">
+                        <button>Comprar</button>
+                        <button class="vermas">Ver mas</button>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="https://static.independent.co.uk/2022/06/15/11/baby%20monitors%20indybest%20copy.jpg?quality=75&width=1200&auto=webp" alt="">
+                    <div class="btn">
+                        <button>Comprar</button>
+                        <button class="vermas">Ver mas</button>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="https://resource.logitech.com/w_797,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/pop-keys-wireless-mechanical/pop-keys-compact-comfy-daydream-1.jpg?v=1" alt="">
+                    <div class="btn">
+                        <button>Comprar</button>
+                        <button class="vermas">Ver mas</button>
+                    </div>
+                </li>
+                <li class="item">
+                    <img src="https://i.shgcdn.com/b635b680-f7f4-4277-b42c-e355b2a71b3a/-/format/auto/-/preview/3000x3000/-/quality/best/" alt="">
+                    <div class="btn">
+                        <button>Comprar</button>
+                        <button class="vermas">Ver mas</button>
+                    </div>
+                </li>
+            </ul>
+            <div class="btn-flecha">
+                <button id="btn-izq" onclick="atras()">&#60;</button>
+                <button id="btn-der" onclick="next()">&#62;</button>
+            </div>
+        </div>
+
+        <a href="#button-1"><div class="button-1"></div></a>
+        <a href="#button-2"><div class="button-2"></div></a>
+
+         <div class="caja-1" id="button-1"></div>
+        <div class="caja-2" id="button-2"></div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

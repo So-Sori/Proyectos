@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --iconos-principal:#ffffff;
+    --iconos-secundario:#1a1100;
+    --bordes:#eefbff;
+    --fondo-principal:rgba(253, 249, 212, 0);
+    /* --fondo-secunadrio:#878C8F; */
+    --fondo-secunadrio:#FCF7FF;
+}
+.slider{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+.slider ul{
+    display: flex;
+    width: 300%;
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider li img{
+    width: 100%;
+    height:60vh;
+}
+.btn{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+    padding: 0 20px;
+}
+input{
+    text-align:center;
+    font-size: 2em;
+    /* font-weight: 600; */
+    font-family: 'Rubik Bubbles', cursive;
+    color:var(--iconos-principal);
+    transition: 0.7s;
+
+    width: 3%;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:var(--fondo-principal);
+    border: 1.5px solid var(--bordes);
+}
+input:hover{
+    transition: 1s;
+    background-color: var(--fondo-secunadrio);
+    color: var(--iconos-secundario);
+    border: none;
+}
